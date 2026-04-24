@@ -16,10 +16,10 @@ The system:
 - Software Defined Networking (SDN)
 - Mininet Network Emulator
 - Open vSwitch (OVSBridge)
-- Star Topology
+- Topology
 
 ---
-## 🖥️ Topology
+##  Topology
 
 ```
       s1
@@ -29,14 +29,6 @@ The system:
 - s1 → Switch  
 - h1, h2 → Initial hosts  
 - h3 → Newly joined host  
-
----
-
-##  Tools Used
-- Ubuntu (Virtual Machine)
-- Mininet
-- Python
-- Open vSwitch
 
 ---
 
@@ -65,6 +57,24 @@ sudo python3 SDN_Orange.py
 ## Sample Output
 
 ![Output](output.png)
+
+## Features
+
+- Simulates an SDN network using Mininet  
+- Detects hosts connected to the network  
+- Maintains and updates host database dynamically  
+- Displays host details with IP addresses  
+- Uses Open vSwitch (OVSBridge) for packet forwarding  
+- Verifies network connectivity using pingAll()    
+
+---
+
+##  Conclusion
+
+This project demonstrates host discovery in SDN using Mininet.  
+It shows how networks dynamically update when new hosts join.
+
+
 
 
 
