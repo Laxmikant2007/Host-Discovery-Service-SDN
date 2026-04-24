@@ -16,7 +16,7 @@ The system:
 - Software Defined Networking (SDN)
 - Mininet Network Emulator
 - Open vSwitch (OVSBridge)
-- Topology
+- Star Topology
 
 ---
 ##  Topology
@@ -43,7 +43,7 @@ The system:
 
 ---
 
-##  How to Run
+## ▶️ How to Run
 
 ### Install Mininet
 ```bash
