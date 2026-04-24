@@ -19,12 +19,13 @@ The system:
 - Star Topology
 
 ---
+## 🖥️ Topology
 
-##  Topology
-  s1
-/  |  \
-h1 h2 h3
-
+```
+      s1
+     / | \
+   h1  h2  h3
+```
 - s1 → Switch  
 - h1, h2 → Initial hosts  
 - h3 → Newly joined host  
